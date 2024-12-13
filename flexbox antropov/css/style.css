@@ -1,0 +1,81 @@
+html,body{
+    height: 100%;
+}
+
+.container{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    width: 1200px ;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header,footer{
+    
+    background-color: aqua;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    flex-grow: 1;
+    
+
+}
+
+aside{
+    background-color: gray;
+    width: 200px;
+}
+
+.logo{
+    text-align: center;
+    align-items: center;
+}
+
+.menu div{
+    background-color: blanchedalmond;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.adress img{
+width: 50px;
+}
+
+.email img{
+width: 60px;
+}
+
+.tel img{
+    width: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+

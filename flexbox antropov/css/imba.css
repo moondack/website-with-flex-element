@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border: 5px solid royalblue;
+    background-color: rgba(255, 157, 157, 0.5);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.flex-elem{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: 3px solid rgb(7, 69, 149);
+    background-color: rgba(7, 69, 149,0.5);
+    
+}
